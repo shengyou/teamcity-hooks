@@ -27,4 +27,12 @@ class Cart
 
         return $this;
     }
+
+    /**
+     * @return int
+     */
+    public function amount()
+    {
+        return $this->items->count();
+    }
 }
