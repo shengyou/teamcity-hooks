@@ -32,10 +32,7 @@ class Product
     /**
      * @return mixed
      */
-    public function getName()
-    {
-        return $this->name;
-    }
+    public function getName(   ){return $this->name;}
 
     /**
      * @return mixed
